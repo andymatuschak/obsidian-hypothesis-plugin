@@ -83,7 +83,7 @@ const parseSyncResponse = (data): Article[] => {
 
         // Skip pdf source
         if ((url).startsWith('urn:x-pdf')) {
-            return result;
+            // return result;
         }
 
         // Check if group is selected
